@@ -1,0 +1,138 @@
+/* Header */
+header {
+	top: 0; /* Without top 0 not works*/
+	position: -webkit-sticky;
+  	position: sticky;
+}
+
+nav {
+	background: orange;
+	height: 80px;
+}
+
+nav ul {
+	text-align: center;
+	padding-top: 30px;
+}
+
+nav ul li {
+	display: inline;
+	background: black;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+}
+/* End of header */
+
+.allWork {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.logo {
+	margin: 2% auto;
+}
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+}
+
+p {
+	text-align: center;
+	padding: 15px 0;
+}
+
+/* Table start */
+.table {
+	margin: 5% 0;
+}
+
+.tableContent {
+	display: inline-block;
+	margin-left: 300px;
+}
+
+.table p {
+	display: inline;
+	padding: 50px;
+}
+
+span {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 5%;
+}
+.tableContent table {
+	display: inline-block;
+	width: 60%;
+	border-collapse: collapse;
+	margin: 0 5%;
+}
+
+.tableContent table tr th {
+	background: orange;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.tableContent table tr td {
+	border: 2px solid black;
+	padding: 18px;
+
+
+}
+
+table tr td.gender {/* Need full way to td element*/
+
+border-bottom: none;
+border-bottom-style: hidden;
+
+}
+
+
+
+/* Table end */
+
+/* Gallery*/
+.gallery {
+	width: 95%;
+	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.gallery img {
+	font-size: 0;
+	line-height: 0;
+	display: block;
+}
+
+.gallery table {
+	margin-left: auto;
+}
+/* End of gallery*/
+
+/* lists */
+
+.lists {
+	text-align: center;
+}
+
+.unordered {
+	display: inline-block;
+	margin: 3% 5%; 
+}
+
+.unordered ul {
+	list-style-type: square;
+}
+
+.unordered ol {
+	list-style-type: upper-roman;
+}
